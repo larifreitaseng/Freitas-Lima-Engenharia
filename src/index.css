@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: "Cormorant Garamond", Georgia, serif;
+    --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #0A1325;
+    color: #E2E8F0;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Custom architectural background lines e subtle patterns in Navy Blue */
+.bg-blueprint-grid {
+  background-image: 
+    linear-gradient(to right, rgba(197, 160, 89, 0.07) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(197, 160, 89, 0.07) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.bg-radial-navy {
+  background: radial-gradient(circle at 50% 20%, rgba(197, 160, 89, 0.12) 0%, rgba(10, 19, 37, 0) 70%);
+}
+
+.text-gold-gradient {
+  background: linear-gradient(135deg, #F9ECCB 0%, #E0BA55 35%, #C5A059 70%, #9F7A2C 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.border-gold-subtle {
+  border-color: rgba(197, 160, 89, 0.25);
+}
+
+.border-gold-glow {
+  box-shadow: 0 0 25px rgba(197, 160, 89, 0.15);
+}
+
+/* Smooth scrollbar styling in Navy Blue */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0A1325;
+}
+::-webkit-scrollbar-thumb {
+  background: #182C52;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C5A059;
+}

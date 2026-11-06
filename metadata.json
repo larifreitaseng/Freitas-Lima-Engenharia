@@ -1,0 +1,6 @@
+{
+  "name": "Freitas Lima Engenharia",
+  "description": "Landing page de alto padrão para Freitas Lima Engenharia e Consultoria. Gestão e execução de obras, orçamento e planejamento e consultorias técnicas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
