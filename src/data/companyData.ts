@@ -32,7 +32,7 @@ export const COMPANY_INFO = {
   email: "freitaslimaeng.consult@gmail.com",
   region: "Votuporanga e região e consultorias online em todo território nacional",
   address: "Votuporanga - SP e atendimento nacional",
-  logoImage: "/assets/aistudio/ChatGPT_Image_7_de_ago._de_2026__15_30_40_ff6b1390.png",
+  logoImage: "/logo.png",
   defaultWebhookUrl: "https://script.google.com/macros/s/AKfycbzglv-aYgOlsKi0ibWwlVkkZfVHzkoRgbl0K6klKN25uP3bAjE4hjnuj2C_Fdl8NFA1/exec",
 };
 
